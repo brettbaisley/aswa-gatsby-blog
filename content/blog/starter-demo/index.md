@@ -1,7 +1,7 @@
 ---
-title: Hello World
-date: "2015-05-01T22:12:03.284Z"
-description: "Hello World"
+title: Starter Demo
+date: "2022-11-01T22:00:00.000Z"
+description: "Starter demo showing the formating that can be used."
 ---
 
 This is my first post on my new fake blog! How exciting!
