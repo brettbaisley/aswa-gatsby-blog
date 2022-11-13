@@ -18,10 +18,12 @@ jobs:
       - uses: actions/checkout@v3
         with:
           submodules: true
+          node-version: '18'
       - name: Build And Deploy
         id: builddeploy
         uses: Azure/static-web-apps-deploy@v1
         with:
+          node-version: '18'
           azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_GRAY_MUSHROOM_00ED5F90F }}
           repo_token: ${{ secrets.GITHUB_TOKEN }} # Used for Github integrations (i.e. PR comments)
           action: "upload"
