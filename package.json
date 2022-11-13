@@ -1,0 +1,43 @@
+{
+  "name": "aswa-gatsby-blog",
+  "version": "1.0.0",
+  "description": "My Personal Blog",
+  "main": "index.js",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "start": "gatsby develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brettbaisley/aswa-gatsby-blog.git"
+  },
+  "author": "Brett Baisley",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brettbaisley/aswa-gatsby-blog/issues"
+  },
+  "homepage": "https://github.com/brettbaisley/aswa-gatsby-blog#readme",
+  "devDependencies": {
+    "gatsby-cli": "^5.0.0"
+  },
+  "dependencies": {
+    "gatsby": "^5.0.1",
+    "gatsby-plugin-image": "^3.0.0",
+    "gatsby-plugin-sharp": "^5.0.0",
+    "gatsby-remark-copy-linked-files": "^6.0.0",
+    "gatsby-remark-images": "^7.0.0",
+    "gatsby-remark-prismjs": "^7.0.0",
+    "gatsby-remark-responsive-iframe": "^6.0.0",
+    "gatsby-remark-smartypants": "^6.0.0",
+    "gatsby-source-filesystem": "^5.0.0",
+    "gatsby-transformer-remark": "^6.0.0",
+    "gatsby-transformer-sharp": "^5.0.0",
+    "typeface-merriweather": "^1.1.13",
+    "typeface-montserrat": "^1.1.13"
+  }
+}
