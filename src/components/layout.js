@@ -25,7 +25,7 @@ const Layout = ({ location, title, children }) => {
       <header className="global-header">{header}</header>
       <main>{children}</main>
       <footer>
-        © {new Date().getFullYear()}
+        © {new Date().getFullYear()} Brett Baisley ~ Powered by Gatsby ~ Made in New York
       </footer>
     </div>
   )
