@@ -6,7 +6,7 @@ date: "2023-04-24"
 
  My last post was in 2022. We are more than a quarter into 2023, so I thought I better write something. So here I am, trying to see if I can do this completely on an iPad.  Safari is the web browser, GitHub.dev is the editor, amd a whole lot of trial and error to get to this point.
 
- Two big issues so far into this little experiment. 
+ Three big issues so far into this little experiment. 
 
  1. The actual cursor, where the letters are appearing as I type, are about 8 characters behind where the blinking cursor is. This is making it rather difficult to move around to fix typos.
 
