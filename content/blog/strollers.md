@@ -1,7 +1,7 @@
 ---
 title: What is the best stroller?
 slug: /strollers
-date: "2023-7-2"
+date: "2023-07-02"
 ---
 
 I am not an official product reviewer. I don't work for a stroller company. I am just a regular dad of two boys who over the years have owned and used multiple different strollers. I want to share my personal recommendation on which stroller I think is the best, and I hope anyone who is on the fence on which stroller to buy finds this helpful.
