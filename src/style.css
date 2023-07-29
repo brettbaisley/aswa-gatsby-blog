@@ -12,6 +12,8 @@
   --bg-default: rgb(255, 255, 255);
 
   --fg-text-primary: rgb(0, 0, 0);
+  --fg-text-secondary: rgb(75, 75, 75);
+  --fg-text-heading: rgb(20, 20, 20);
 
   --fg-link-primary: rgba(80, 80, 214, 1);
   --fg-link-hover: rgba(80, 80, 214, .75);
@@ -19,12 +21,14 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bg-default: rgb(18, 18, 18);
+    --bg-default: rgb(12, 12, 12);
     
-    --fg-text-primary: rgb(225, 225, 225);
+    --fg-text-primary: rgb(235, 235, 235);
+    --fg-text-secondary: rgb(180, 180, 180);
+    --fg-text-heading: rgb(255, 255, 255);
 
-    --fg-link-primary: rgb(35, 135, 185);
-    --fg-link-hover: rgba(35, 135, 185, .75);
+    --fg-link-primary: rgb(80, 105, 200);
+    --fg-link-hover: rgba(80, 105, 200, .75);
   }
 }
 
@@ -47,6 +51,7 @@ body {
 
 h1,
 h2 {
+  color: var(--fg-text-heading);
   line-height: 1.1;
   margin: 0;
   padding: 0;
@@ -71,8 +76,9 @@ a:hover {
   color: var(--fg-link-hover);
 }
 
-.global-header > h1 {
+.main-heading {
   font-size: 3rem;
+  font-weight: 800;
 }
 
 
@@ -84,7 +90,10 @@ main {
 
 
 .footer {
+  color: var(--fg-text-secondary);
+  font-size: .75rem;
   margin-top: 2rem;
+  padding: 1rem;
   text-align: center;
 }
 
@@ -124,7 +133,19 @@ main {
   max-width: 70ch;
   padding: 1rem;
 }
+
 .blog-post-nav ul {
   display: flex;
+  gap: 1rem;
   justify-content: space-between;
+}
+
+.blog-post-nav-left {
+  flex: 1 1 0;
+  text-align: left;
+}
+
+.blog-post-nav-right {
+  flex: 1 1 0;
+  text-align: right;
 }

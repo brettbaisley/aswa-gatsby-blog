@@ -13,6 +13,8 @@ const BlogPostTemplate = ({
 
   return (
     <Layout location={location} title={siteTitle}>
+      <hr />
+  
       <article
         className="blog-post"
         itemScope
@@ -33,14 +35,14 @@ const BlogPostTemplate = ({
       </article>
       <nav className="blog-post-nav">
         <ul>
-          <li>
+          <li className="blog-post-nav-left">
             {previous && (
               <Link to={previous.frontmatter.slug} rel="prev">
                 ← {previous.frontmatter.title}
               </Link>
             )}
           </li>
-          <li>
+          <li className="blog-post-nav-right">
             {next && (
               <Link to={next.frontmatter.slug} rel="next">
                 {next.frontmatter.title} →
