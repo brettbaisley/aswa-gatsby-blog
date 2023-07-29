@@ -24,7 +24,7 @@ const Layout = ({ location, title, children }) => {
     <div className="global-wrapper" data-is-root-path={isRootPath}>
       <header className="global-header">{header}</header>
       <main>{children}</main>
-      <footer>
+      <footer className="footer">
         © {new Date().getFullYear()} Brett Baisley ~ Powered by Gatsby ~ Made in New York
       </footer>
     </div>
