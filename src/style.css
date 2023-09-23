@@ -10,6 +10,7 @@
 
 :root {
   --bg-default: rgb(255, 255, 255);
+  --bg-layer: rgba(250, 250, 250, .95);
 
   --fg-text-primary: rgb(0, 0, 0);
   --fg-text-secondary: rgb(75, 75, 75);
@@ -22,6 +23,7 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --bg-default: rgb(12, 12, 12);
+    --bg-layer: rgba(225, 225, 225, .05);
     
     --fg-text-primary: rgb(235, 235, 235);
     --fg-text-secondary: rgb(180, 180, 180);
@@ -84,11 +86,6 @@ a:hover {
 
 
 
-main {
-
-}
-
-
 .footer {
   color: var(--fg-text-secondary);
   font-size: .75rem;
@@ -99,7 +96,9 @@ main {
 
 
 .post-list-item {
-  margin: 0 auto;
+  background-color: var(--bg-layer);
+  border-radius: 4px;
+  margin: 1rem auto;
   max-width: 70ch;
   padding: 1rem;
 }
@@ -109,6 +108,8 @@ main {
 }
 
 .blog-post {
+  background-color: var(--bg-layer);
+  border-radius: 4px;
   line-height: 1.5;
   margin: 0 auto;
   max-width: 70ch;
